@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js run git-combo
+
+PATH: 
+  C:\Program Files\Cmder\bin;C:\Program Files\Cmder\vendor\bin;C:\Program Files\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Program Files\Cmder\vendor\conemu-maximus5;C:\Program Files\Cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NetBeans 8.2\bin;C:\Maven\apache-maven-3.6.0\bin;C:\Program Files\Apache Ant\apache-ant-1.10.5\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Microsoft VS Code\bin;C:\tools\BCURRAN3;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\hp\.windows-build-tools\python27;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\hp\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\hp\AppData\Roaming\npm\node_modules\.bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby25-x64\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Cmder;C:\Program Files (x86)\NirSoft\Wireless Network Watcher;C:\Program Files (x86)\Inno Setup 5;C:\Program Files (x86)\WiX Toolset v3.11\bin;C:\Program Files\heroku\bin;C:\tools\mysql\current\bin;C:\Users\hp\AppData\Local\Yarn\bin;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\AppData\Local\.meteor;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Cmder
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\hp\dev-space\ui-ux\katendeglory.github.io\public\package.json: Unexpected token } in JSON at position 166
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "public",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "git-combo": "git add . && git commit -am \"Yet another commit\" && git push",
+    },
+    "repository": "https://github.com/katendeglory/katendeglory.github.io.git",
+    "author": "Glory Katende <katendeglory@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
