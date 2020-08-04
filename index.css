@@ -1323,6 +1323,12 @@ video {
   color: rgba(235, 203, 139, var(--text-opacity));
 }
 
+.hover\:text-brand-red:hover {
+  --text-opacity: 1;
+  color: #D08770;
+  color: rgba(208, 135, 112, var(--text-opacity));
+}
+
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -1392,6 +1398,10 @@ video {
   --transform-scale-x: 1;
   --transform-scale-y: 1;
   transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
 }
 
 .transition-transform {
