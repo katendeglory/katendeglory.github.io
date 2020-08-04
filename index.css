@@ -1055,10 +1055,6 @@ video {
   justify-content: space-between;
 }
 
-.font-thin {
-  font-weight: 200;
-}
-
 .h-6 {
   height: 1.5rem;
 }
@@ -1123,6 +1119,11 @@ video {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mx-auto {
@@ -1527,10 +1528,6 @@ video {
 
   .md\:justify-center {
     justify-content: center;
-  }
-
-  .md\:font-hairline {
-    font-weight: 100;
   }
 
   .md\:h-16 {
