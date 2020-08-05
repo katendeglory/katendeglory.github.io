@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.text-field {
+  border-radius: 0;
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  @apply block py-4 px-4 shadow-md;
+}
+
+.text-field::placeholder {
+  opacity: .5;
+}
+
+.text-field:focus {
+  /* @apply border border-brand-green outline-none; */
+  @apply outline-none;
+}
