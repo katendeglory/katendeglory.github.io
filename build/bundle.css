@@ -1,7 +1,7 @@
 .contact-card.svelte-dx6ad0{border-bottom-left-radius:50px;border-bottom-right-radius:50px}@media(min-width: 768px){.contact-card.svelte-dx6ad0{border-radius:0;border-top-right-radius:50px;border-bottom-left-radius:50px}}
 .link.svelte-5ftz5f:hover{transform:scale(1.05);transform-origin:0}
 .skills-grid.svelte-frxwhn{display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));column-gap:25px}@media(max-width: 550px){.skills-grid.svelte-frxwhn{display:grid;grid-template-columns:repeat(auto-fit, minmax(80px, 1fr));column-gap:10px}}
-.grid.svelte-vzp8g5{display:grid;grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));column-gap:25px}@media(max-width: 400px){.grid.svelte-vzp8g5{display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));column-gap:25px}}
+.grid.svelte-pn1u10{display:grid;grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));column-gap:25px;overflow-y:hidden}@media(max-width: 400px){.grid.svelte-pn1u10{display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));column-gap:25px}}
 .skill-card.svelte-1chac74{border-top-right-radius:25px;border-bottom-left-radius:25px}
 .work-card.svelte-1bzuw6c{border-top-right-radius:50px;border-bottom-left-radius:50px}.work-card.svelte-1bzuw6c:hover{transform:scale(1.03)}
 
