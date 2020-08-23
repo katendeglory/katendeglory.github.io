@@ -5,7 +5,7 @@
   border-radius: 0;
   border-top-right-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
-  @apply block py-4 px-4 shadow-md;
+  @apply block py-4 px-4 shadow-sm;
 }
 
 .text-field::placeholder {
