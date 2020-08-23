@@ -1584,19 +1584,19 @@ video {
 }
 
 .text-field::-moz-placeholder {
-  opacity: .5;
+  opacity: .75;
 }
 
 .text-field:-ms-input-placeholder {
-  opacity: .5;
+  opacity: .75;
 }
 
 .text-field::-ms-input-placeholder {
-  opacity: .5;
+  opacity: .75;
 }
 
 .text-field::placeholder {
-  opacity: .5;
+  opacity: .75;
 }
 
 .text-field:focus {

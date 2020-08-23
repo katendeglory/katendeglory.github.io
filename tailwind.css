@@ -9,7 +9,7 @@
 }
 
 .text-field::placeholder {
-  opacity: .5;
+  opacity: .75;
 }
 
 .text-field:focus {
