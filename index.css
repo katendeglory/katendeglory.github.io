@@ -1681,6 +1681,10 @@ video {
     margin-left: 0.75rem;
   }
 
+  .sm\:max-w-none {
+    max-width: none;
+  }
+
   .sm\:w-6 {
     width: 1.5rem;
   }
@@ -1691,6 +1695,10 @@ video {
 
   .sm\:w-24 {
     width: 6rem;
+  }
+
+  .sm\:w-112 {
+    width: 28rem;
   }
 }
 
@@ -1778,6 +1786,10 @@ video {
 
   .md\:w-16 {
     width: 4rem;
+  }
+
+  .md\:w-160 {
+    width: 40rem;
   }
 
   .md\:w-2\/5 {
