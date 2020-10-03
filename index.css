@@ -1141,10 +1141,6 @@ video {
   font-size: 3rem;
 }
 
-.text-6xl {
-  font-size: 4rem;
-}
-
 .leading-none {
   line-height: 1;
 }
@@ -1235,10 +1231,6 @@ video {
 
 .mb-16 {
   margin-bottom: 4rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .mb-24 {
@@ -1371,6 +1363,10 @@ video {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .pt-32 {
