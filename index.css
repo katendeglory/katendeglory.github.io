@@ -1097,8 +1097,8 @@ video {
   height: 10rem;
 }
 
-.h-56 {
-  height: 14rem;
+.h-64 {
+  height: 16rem;
 }
 
 .h-full {
@@ -1771,6 +1771,10 @@ video {
     align-items: center;
   }
 
+  .md\:items-baseline {
+    align-items: baseline;
+  }
+
   .md\:justify-center {
     justify-content: center;
   }
@@ -1868,6 +1872,10 @@ video {
 
   .lg\:mr-4 {
     margin-right: 1rem;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:w-1\/2 {
