@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Nunito:wght@300&display=swap');
 html {
   scroll-behavior: smooth;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 .raleway {
-  font-family: raleway;
+  font-family: 'Acme', sans-serif;
 }
 
 *::selection {
