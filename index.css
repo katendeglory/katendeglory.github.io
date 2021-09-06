@@ -981,6 +981,12 @@ video {
   background-color: rgba(53, 61, 74, var(--bg-opacity));
 }
 
+.border-red-400 {
+  --border-opacity: 1;
+  border-color: #fc8181;
+  border-color: rgba(252, 129, 129, var(--border-opacity));
+}
+
 .border-brand-red {
   --border-opacity: 1;
   border-color: #D08770;
@@ -1447,6 +1453,12 @@ video {
   color: rgba(74, 85, 104, var(--text-opacity));
 }
 
+.text-red-400 {
+  --text-opacity: 1;
+  color: #fc8181;
+  color: rgba(252, 129, 129, var(--text-opacity));
+}
+
 .text-brand-red {
   --text-opacity: 1;
   color: #D08770;
@@ -1797,6 +1809,10 @@ video {
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 
   .md\:w-16 {
