@@ -3,7 +3,7 @@
     <style>
       .circuit-light {
         fill: #f7fafc;
-        opacity: 0.01;
+        opacity: 0.05;
       }
     </style>
   </defs>
