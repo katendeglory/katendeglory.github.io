@@ -3,7 +3,7 @@
     <style>
       .circuit-dark {
         fill: #4a5568;
-        opacity: 0.05;
+        opacity: 0.03;
       }
     </style>
   </defs>
