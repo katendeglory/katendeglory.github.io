@@ -969,12 +969,6 @@ video {
   background-color: rgba(45, 55, 72, var(--bg-opacity));
 }
 
-.bg-brand-green {
-  --bg-opacity: 1;
-  background-color: #02C39A;
-  background-color: rgba(2, 195, 154, var(--bg-opacity));
-}
-
 .bg-brand-darker-black {
   --bg-opacity: 1;
   background-color: #353d4a;
@@ -1103,10 +1097,6 @@ video {
 
 .h-40 {
   height: 10rem;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .h-screen {
@@ -1263,16 +1253,6 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.object-top {
-  -o-object-position: top;
-     object-position: top;
 }
 
 .opacity-25 {
