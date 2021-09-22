@@ -2,6 +2,14 @@
 <html itemscope itemtype="http://schema.org/Article">
 
 <head>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
+			// https://dashboard.emailjs.com/admin/integration
+			emailjs.init('user_P9b5DDaWZYazzfO3XFd1a');
+		})();
+	</script>
+
 	<meta name="image" property="og:image" content="./images/featured.png">
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
@@ -111,7 +119,6 @@
 		<img src="./images/featured.png" alt="Featured Image" />
 	</div>
 
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
 	<script src="./lib/aos.js"></script>
 	<script>
 		AOS.init({ once: true });
