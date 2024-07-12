@@ -2,35 +2,12 @@
 <html itemscope itemtype="http://schema.org/Article">
 
 <head>
-	<!--Start of Tawk.to Script-->
-	<script type="text/javascript">
-		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-		(function () {
-			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-			s1.async = true;
-			s1.src = 'https://embed.tawk.to/6298fa8d7b967b11799299fa/1g4ip5fd7';
-			s1.charset = 'UTF-8';
-			s1.setAttribute('crossorigin', '*');
-			s0.parentNode.insertBefore(s1, s0);
-		})();
-	</script>
-	<!--End of Tawk.to Script-->
-
-	<script>
-		document.addEventListener('load', () => {
-			console.log("Loaded...")
-			console.log(document.querySelector('iframe'))
-		})
-	</script>
-
-
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 	<script type="text/javascript">
-			(function () {
-				// https://dashboard.emailjs.com/admin/integration
-				emailjs.init('user_P9b5DDaWZYazzfO3XFd1a');
-			})();
-
+		(function () {
+			// https://dashboard.emailjs.com/admin/integration
+			emailjs.init('user_P9b5DDaWZYazzfO3XFd1a');
+		})();
 	</script>
 
 	<meta name="image" property="og:image" content="./images/featured.png">
@@ -146,54 +123,6 @@
 	<script>
 		AOS.init({ once: true });
 	</script>
-
-	<script>
-		/* Customization here... */
-		window.Tawk_API = window.Tawk_API || {};
-
-		window.Tawk_API.onLoad = () => {
-
-			console.log("Tawk To Loaded");
-
-			setTimeout(() => {
-
-				document.querySelectorAll('iframe').forEach(item => {
-					let tawkBody = item.contentWindow.document.body;
-
-					let link = document.createElement("link");
-					link.href = "./lib/tawk.to.css";
-					link.rel = "stylesheet";
-					link.type = "text/css";
-
-					tawkBody.appendChild(link)
-				})
-
-
-			}, 2500);
-
-
-			// setTimeout(() => {
-			// 	let tawkBody = document.querySelector("iframe[title='chat widget']").contentWindow.document.body;
-
-			// 	tawkBody.querySelector('.tawk-button').style = `
-			// 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%) !important;
-			// 		border-radius: 0.375rem !important;
-			// 		border: none !important;
-			// 	`;
-
-			// }, 2500);
-
-			// setTimeout(() => {
-			// 	let tawkBody = document.querySelector("iframe").contentWindow.document.body;
-
-			// 	console.log(tawkBody.querySelector(".tawk-max-container"));
-			// 	console.log(tawkBody.querySelector(".tawk-footer .tawk-text-center"));
-
-			// }, 10000);
-
-		};
-	</script>
-
 </body>
 
 
